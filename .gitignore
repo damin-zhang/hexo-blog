@@ -1,11 +1,5 @@
-.DS_Store
-.idea/
-*.log
-*.iml
-yarn.lock
-package-lock.json
+public/
 node_modules/
-.cache
 
 # Setting
 _config.yml
