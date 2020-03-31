@@ -1,5 +1,5 @@
 ---
-title: about
+title: About
 date: 2020-03-26 16:12:51
 ---
 > I am a web developer, based in chengdu, China.
