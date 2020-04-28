@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 
-<html lang="zh-cn" >
+<html lang="zh-cn">
 
 
 <head>
@@ -13,11 +13,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    锚点跳转过渡动画 |  楠菜山站
+    锚点跳转过渡动画 |  张大敏的小站
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
-  <link rel="shortcut icon" href="https://damin-zhang.github.io/github.io/images/zhangdamin.ico" />
+  <link rel="shortcut icon" href="/images/zhangdamin.ico" />
   
   
 <link rel="stylesheet" href="/dist/main.css">
@@ -29,7 +29,17 @@
 
   
 
-<link rel="alternate" href="/atom.xml" title="楠菜山站" type="application/atom+xml">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164781354-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '', { 'optimize_id': 'OPT-P9KDWDR'});
+    gtag('config', 'UA-164781354-1');
+  </script>
+
+<link rel="alternate" href="/atom.xml" title="张大敏的小站" type="application/atom+xml">
 </head>
 
 </html>
@@ -298,39 +308,43 @@
     <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
     <ul class="list-inline">
       <li>
-        &copy;
+        Copyright &copy;
         2019-2020
         张大敏
       </li>
       <li>
+        <img style="padding-right: 5px;" src="/images/icp.png" alt="ICP"><a href="http://www.beian.miit.gov.cn/" target="_black">蜀ICP备20009910号</a>
+      </li>
+      <li>
+        <!-- cnzz统计 -->
         
-        Powered by
-        
-        
-        <a href="https://hexo.io" target="_blank">Hexo</a> Theme <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
-        
+          <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278722423&amp;web_id=1278722423'></script>
+          
       </li>
     </ul>
     <ul class="list-inline">
       <li>
-        
-        
-        <span>
-  <i>PV:<span id="busuanzi_value_page_pv"></span></i>
-  <i>UV:<span id="busuanzi_value_site_uv"></span></i>
-</span>
-        
-      </li>
-      
-      <li>
-        <a href="http://www.beian.miit.gov.cn/" target="_black">蜀ICP备20009910号</a>
-      </li>
-      
-      <li>
-        <!-- cnzz统计 -->
-        
-        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278722423&amp;web_id=1278722423'></script>
-        
+        <div class="github-badge">
+          <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv">81861</span>
+        <div class="github-badge">
+          <span class="badge-subject">UV</span><span class="badge-value bg-orange" id="busuanzi_value_site_uv">23965</span>
+        </div></div>
+        <div class="github-badge">
+          <a style="color: #fff" rel="license" href="https://hexo.io/" target="_blank" title="由 Hexo 强力驱动">
+          <span class="badge-subject">Powered</span><span class="badge-value bg-blue">Hexo</span></a>
+        </div>
+        <div class="github-badge">
+          <a style="color: #fff" rel="license" href="https://github.com/" target="_blank" title="静态网页托管于 GitHub Pages 和 Coding Pages">
+          <span class="badge-subject">Hosted</span><span class="badge-value bg-red">GitHub &amp; Coding</span></a>
+        </div>
+        <div class="github-badge">
+          <a style="color: #fff" rel="license" href="https://www.aliyun.com/" target="_blank" title="阿里云提供域名相关服务">
+          <span class="badge-subject">DNS</span><span class="badge-value bg-blueviolet">Aliyun</span></a>
+        </div>
+        <div class="github-badge">
+          <a style="color: #fff" rel="license" href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank" title="站点使用 Ayer 主题">
+        <span class="badge-subject">Theme</span><span class="badge-value bg-blue">Ayer</span></a>
+      </div>
       </li>
     </ul>
     <script>
@@ -344,7 +358,7 @@
         mnum = Math.floor(minutes); if (String(mnum).length == 1) { mnum = "0" + mnum; }
         seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
         snum = Math.round(seconds); if (String(snum).length == 1) { snum = "0" + snum; }
-        document.getElementById("timeDate").innerHTML = "本站已运行 " + dnum + " 天 ";
+        document.getElementById("timeDate").innerHTML = "已运行 " + dnum + " 天 ";
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
       }
       setInterval("createtime()", 250);
@@ -367,7 +381,7 @@
 <nav class="navbar">
   
   <div class="logo">
-    <a href="/"><img src="https://damin-zhang.github.io/github.io/images/zhangdamin.ico" alt="楠菜山站"></a>
+    <a href="/"><img src="/images/zhangdamin.ico" alt="张大敏的小站"></a>
   </div>
   
   <ul class="nav nav-main">
@@ -462,7 +476,7 @@
 <script>
   try {
     var typed = new Typed("#subtitle", {
-      strings: ['一个年轻的前端开发者', '', '然沉迷撸码，日渐消瘦'],
+      strings: ['欢迎来到张大敏的小站', '一个年轻的前端开发者', '在寻求知识的道路上越陷越深'],
       startDelay: 0,
       typeSpeed: 200,
       loop: true,
