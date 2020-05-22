@@ -3,9 +3,9 @@
 *.log
 *.iml
 yarn.lock
-package-lock.json
 node_modules/
 public/
+package-lock.json
 .cache
 
 # Setting
