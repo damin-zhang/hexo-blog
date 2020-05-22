@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>整理的html&amp;css属性</title>
+    <url>/2020/05/13/%E6%95%B4%E7%90%86%E7%9A%84html-css%E5%B1%9E%E6%80%A7/</url>
+    <content><![CDATA[<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h2><h3 id="文本超出两行添加省略号隐藏"><a href="#文本超出两行添加省略号隐藏" class="headerlink" title="文本超出两行添加省略号隐藏"></a>文本超出两行添加省略号隐藏</h3><p><strong>css的三条属性</strong></p>
+<p><code>overflow:hidden;</code> //超出的文本隐藏</p>
+<p><code>text-overflow:ellipsis;</code> //溢出用省略号显示</p>
+<p><code>white-space:nowrap;</code> //溢出不换行</p>
+<p><strong>这三个是css的基础属性，需要记得。</strong></p>
+<a id="more"></a>
+
+<p>但是第三条属性，只能显示一行，不能用在这里，那么如果显示多行呢？</p>
+<p>css3解决了这个问题，解决方法如下：</p>
+<p><code>display:-webkit-box;</code> //将对象作为弹性伸缩盒子模型显示。</p>
+<p><code>-webkit-box-orient:vertical;</code> //从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）</p>
+<p><code>-webkit-line-clamp:2;</code>  //这个属性不是css的规范属性，需要组合上面两个属性，表示显示的行数。</p>
+<p><strong>最后的css样式如下：</strong></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">overflow</span><span class="selector-pseudo">:hidden</span>; </span><br><span class="line"></span><br><span class="line"><span class="selector-tag">text-overflow</span><span class="selector-pseudo">:ellipsis</span>;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">display</span><span class="selector-pseudo">:-webkit-box</span>; </span><br><span class="line"></span><br><span class="line"><span class="selector-tag">-webkit-box-orient</span><span class="selector-pseudo">:vertical</span>;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">-webkit-line-clamp</span><span class="selector-pseudo">:2</span>;</span><br></pre></td></tr></table></figure>
+
+<h3 id="连续的英文字母和数字换行"><a href="#连续的英文字母和数字换行" class="headerlink" title="连续的英文字母和数字换行"></a>连续的英文字母和数字换行</h3><blockquote>
+<p>此属性只能用来处理英文和数字，汉字无效</p>
+</blockquote>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">word-break: break-all;    //  按字母换行</span><br><span class="line">word-break: break-word;   //  按单词换行</span><br><span class="line">word-break: keep-all;     //  按空格，单个单词过长不会换行</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Front-end</category>
+        <category>研习</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>React-Native环境搭建</title>
     <url>/2020/04/08/React-Native%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
     <content><![CDATA[]]></content>
